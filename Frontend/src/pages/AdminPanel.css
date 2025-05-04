@@ -1,0 +1,184 @@
+.admin-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+  }
+  
+  .admin-panel h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1f2937;
+  }
+  
+  .admin-panel button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .admin-panel button:hover {
+    background-color: #2563eb;
+  }
+  
+  .admin-panel h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #374151;
+  }
+  
+  .admin-panel form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-panel form div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .admin-panel form label {
+    font-weight: 500;
+    color: #4b5563;
+  }
+  
+  .admin-panel form input {
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .admin-panel form button {
+    background-color: #10b981;
+    padding: 8px 12px;
+    width: 100%;
+    max-width: 200px;
+    align-self: flex-end;
+    font-size: 14px;
+  }
+  
+  .admin-panel form button:hover {
+    background-color: #059669;
+  }
+  
+  .product-item {
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .product-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 0;
+  }
+  
+  .product-item p {
+    margin: 0;
+    color: #6b7280;
+  }
+  
+  .product-item form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .product-item form div {
+    flex: 1;
+  }
+  
+  .product-item form button[type="submit"] {
+    background-color: #10b981;
+    color: white;
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+  
+  .product-item form button[type="submit"]:hover {
+    background-color: #059669;
+  }
+  
+  .product-item form button[type="button"] {
+    background-color: #6b7280;
+    color: white;
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+  
+  .product-item form button[type="button"]:hover {
+    background-color: #4b5563;
+  }
+  
+  .product-item .action-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .product-item button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    width: auto;
+  }
+  
+  .product-item button:first-of-type {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .product-item button:first-of-type:hover {
+    background-color: #2563eb;
+  }
+  
+  .product-item button:last-of-type {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .product-item button:last-of-type:hover {
+    background-color: #dc2626;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-panel {
+      padding: 10px;
+    }
+    .admin-panel form {
+      padding: 15px;
+    }
+    .product-item form {
+      flex-direction: column;
+    }
+    .product-item .action-buttons {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .product-item button {
+      width: 100%;
+    }
+  }
